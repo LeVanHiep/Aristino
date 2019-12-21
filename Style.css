@@ -46,6 +46,7 @@ header div
 	padding: 30px;
 	display: flex;
 	width: 100%;
+	margin: 0;
 }
 .Line div
 {
@@ -175,7 +176,38 @@ body
 	margin-left: auto;
 	margin-right: 36px;
 }
-
+.Event
+{
+	position: relative;
+	width: 100%;
+	height: 500px;
+	background-color: blue;
+}
+.Event img
+{
+	width: 100%;
+	display: none;
+	animation: RtoL 0.5s;
+}
+.Event .Pages
+{
+	position: absolute;
+	width: 100%;
+	bottom: 10px;
+}
+.Pages div
+{
+	margin-left: 46.7%;
+	display: flex;
+}
+.Pages div div
+{
+	border-radius: 50%;
+	height: 12px;
+	width: 12px;
+	margin: 5px;
+	border: 2px solid rgba(255, 255, 255, 0.6);
+}
 .Collection
 {
 	width: 100%;

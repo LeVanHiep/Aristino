@@ -6,8 +6,9 @@
 
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="Style.css">
-	<script src="Action.js"></script>
 	<script src="https://kit.fontawesome.com/27f6d17c61.js" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="Action.js"></script>
 </head>
 
 <body>
@@ -141,7 +142,18 @@
 		</ul>
 	</div>
 
-	<img src="https://theme.hstatic.net/1000199383/1000258989/14/slideshow_2.jpg?v=5304" class="w100">
+	<div class="Event">
+		<img src="https://theme.hstatic.net/1000199383/1000258989/14/slideshow_1.jpg?v=5318">
+		<img src="https://theme.hstatic.net/1000199383/1000258989/14/slideshow_2.jpg?v=5304">
+		<img src="https://theme.hstatic.net/1000199383/1000258989/14/slideshow_3.jpg?v=5318">
+		<div class="Pages">
+			<div>
+				<div class="Page" id="Page0"></div>
+				<div class="Page" id="Page1"></div>
+				<div class="Page" id="Page2"></div>
+			</div>
+		</div>
+	</div>
 
 	<div class="Kind">
 		<div class="Flex">
@@ -171,8 +183,8 @@
 	</div>
 
 	<div class="SlideShow">
-		<button id="Left"><</button>
-		<button id="Right">></button>
+		<button id="Left" class="Next" data-v="-1"><</button>
+		<button id="Right" class="Next" data-v="1">></button>
 		<div class="Slide">
 			
 			<div class="Product">
@@ -197,7 +209,7 @@
 					<p>ALS1760</p>
 				</div>
 				<p><b class="Price">795,000đ</b></p>
-				<img src="Images/Star.png">
+				<img src="Images/Star.PNG">
 				<p class="Rated">(0 đánh giá)</p>
 			</div>
 			<div class="Product">
