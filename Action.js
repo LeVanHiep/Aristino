@@ -40,10 +40,25 @@ window.onload = function()
 
 	MoveSlide();
 }
-
 $(document).ready(function()
 {
-	$('button').on('click tap', function(e)
+	$("body").on('click tap','.Page',function(e)
+	{
+		var x = document.getElementsByClassName("EventImg");
+		var y = document.getElementsByClassName("Page");
+		for (var i = x.length - 1; i >= 0; i--)
+		{
+			x[i].style.display = "none";
+			y[i].classList.remove("Active");
+		}
+		var a = $(this).data("page");
+		x[a].style.display = "block";
+		y[a].classList.add("Active");
+	})
+})
+$(document).ready(function()
+{
+	$('body').on('click tap','.Next', function(e)
 	{
 		var x = document.getElementsByClassName("Slide");
 		var size = x.length;
