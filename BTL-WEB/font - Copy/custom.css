@@ -1,0 +1,134 @@
+.info-footer-bottom{
+	.copy{
+		margin: 10px 0 20px;
+		text-align: left;
+		line-height: 20px;
+		font-size: 12px;
+	}
+}
+.a-product .product-name h2 {
+	font-weight:300 !important;
+	font-size:16px !important;
+}
+.zopim {
+    //display: none !important;
+}
+.current-price {
+	color: #000;
+	font-weight: normal;
+	font-size: 16px;
+}
+.old-price s {
+	font-size:15px !important;
+}
+.current-price2 {
+	color: deepskyblue;
+}
+.a-product .product-name:hover {
+	color: #6cabd5;
+}
+.title--default,#related-products h2 {
+	font-size:25px;	
+}
+#related-products h2 {margin-bottom:20px;}
+#related-products {
+	margin-bottom: 30px;
+}
+.title--default {margin-bottom:0px;}
+#home-policy {
+	background: #f1f6f9;
+	margin-top: 20px;
+}
+.swatch-element label.sd {
+	border: 2px solid #5a5a5a;
+}
+#AddToCart{
+	background: none;
+	border: 4px double #000000;
+	width:290px;
+	color: #000;
+	font-weight:normal;
+	padding: 10px;
+}
+.swatch-element label.sd {
+	border-radius: 100%;
+}
+.swatch label {
+	border-radius: 100%;
+}
+.swatch .img-check {
+	display: none !important;
+}
+.product-single .product-info #ProductPrice {
+	color:#F00 !important;
+	font-size: 22px;
+
+}
+.product-single .product-info #ComparePrice {
+	color: #767676;
+  font-weight: 400;
+  padding-left: 5px;
+}
+
+.product-container .product-single .product-more-info {
+	font-size: 15px;
+	margin: 0;
+}
+.product--loop .product--loop__info_in_image .price_in_image {
+	bottom: 310px;
+}
+.product--loop__actions {
+	padding-top: 5px !important;
+}
+#AddToCart .icon-cart {margin-left:10px;}
+.section-header__title .parallax-text h1 {display:inline;font-size:30px;}
+.section-header__title .parallax-text {font-size:30px;}
+h3.policy-title {
+	font-size: 14px;
+	font-weight: bold;
+}
+#blog-main-content h2 {margin:0;}
+.section-header .desc-collection h2 {margin-top:0px;}
+
+
+span.show-room {
+	display: block;
+	float: left;
+	color: #e64406;
+}
+
+span.show-room a {
+	color: #e64406;
+	margin-left:50px;
+	transform: translateY(-15px);
+	display: inline-block;
+}
+
+span.show-room a:hover {
+	color:#333;
+}
+
+.ajaxcart__addons {
+	padding-top: 20px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+.ajaxcart__addons span {
+	color: #999;
+  display: block;
+  margin-bottom: 5px;
+}
+.ajaxcart__addons a {
+	display: block;
+	padding-top: 2.5px;
+	padding-bottom: 2.5px;
+}
+
+.haravan-product-reviews-badge {
+	text-align: center;
+	margin-top: 0;
+}
+
+.haravan-product-reviews-badge p {
+		font-size: 80%;
+}

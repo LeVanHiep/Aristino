@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+     padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.all{
+    width: 100%;
+    height: auto;
+}
+.logo{
+    width: 100%;
+    text-align: center;
+}
+.image1{
+width: 100%;
+    height: auto;
+
+}
+.image2{
+    width: 80%;
+    height: auto;
+    margin: 0 auto ;
+
+}
+.styleImage{
+float: left;
+   margin-top: 80px;
+
+}
+.embed-responsive-item{
+    width: 100%;
+    margin-top: 80px;
+    height: 700px;
+}
+footer
+{ width: 100%;
+    float: left;
+	border-top: 1px solid #dcdcdc;
+	background-color: #fafafa;
+	margin-top: 100px;
+}
+.Footer
+{  float: left;
+	
+	margin: 28px 20px 50px 20px;
+	width: 96%;
+	font-weight: 300;
+	font-size: 14px;
+}
+
+.hi{
+    box-sizing: border-box;
+     width: 20%;
+     background:  rgb(119, 165, 12);
+     position: fixed;
+     bottom: 0px;
+     right: 0;
+     border-radius: 5px 5px 0 0;
+     z-index: 100;
+ 
+ }
+ .message{
+     float: left;
+     padding: 5px 5px 5px 5px;
+     color: white;
+     line-height: 1.5;
+     font-size: 15px;
+ }
+ .bell{
+     box-sizing: border-box;
+     z-index: 200;
+     bottom: 15px;
+     position: fixed;
+     right: 10px;
+     background: rgb(238, 82, 82);
+     padding: 5px;
+     border-radius: 50%;
+ 
+ }
+ .fa-bell
+ {
+     color: white;
+     
+ }

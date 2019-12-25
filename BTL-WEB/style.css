@@ -1,0 +1,480 @@
+*
+{
+	margin: auto;
+	padding: 0;
+	font-family: sans-serif;
+}
+header
+{
+	display: flex;
+	margin: 15px;
+	color: #999;
+}
+header div
+{
+	width: 33.3%;
+}
+.Logo
+{
+	height: 100px;
+	width: 165px;
+	margin-left: 30px;
+}
+.Search
+{
+	height: 30px;
+	width: 354px;
+	border-radius: 30px;
+	border: 1px grey solid;
+	margin: 40px auto;
+	display: flex;
+}
+.Search input
+{
+	text-align: left;
+	width: 80%;
+	outline: none;
+	margin: 8px 15px;
+}
+.Search i
+{
+	width: 5%;
+	line-height: 30px;
+}
+.Line
+{
+	display: flex;
+	width: 100%;
+}
+.Line div
+{
+	width: 30%;
+}
+.Contact
+{
+	width: 100px;
+	text-align: center;
+}
+.Contact i
+{
+	font-size: 30px;
+}
+.Contact p
+{
+	line-height: 2.24;
+	font-size: 14px;
+	color: black;
+}
+.Number
+{
+	color: red!important;
+	line-height: 1.5!important;
+	font-size: 18px!important;
+	font-weight: bold!important;
+}
+
+
+ul
+{
+	display: flex;
+	list-style-type: none;
+	background-color: white;
+}
+li
+{
+	line-height: 50px;
+	font-weight: bold;
+	font-size: 12px;
+	position: relative;
+	background-color: white;
+}
+li p
+{
+	margin-left: 10px;
+}
+li i
+{
+	width: 14px;
+	margin-left: 10px;
+}
+.Red
+{
+	color: red;
+}
+li p:hover
+{
+	color: red;
+	cursor: pointer;
+}
+li ul
+{
+	display: none;
+}
+li ul i
+{
+	float: right;
+	line-height: inherit!important;
+}
+li:hover > ul
+{
+	display: block;
+	position: absolute;
+	width: 200px;
+}
+ul ul ul
+{
+	left: 100%;
+	top: 0;
+	bottom: 0;
+}
+
+.Apear
+{
+	width: 20%;
+	color: #999;
+	font-size: 12px;
+}
+.Apear div
+{
+	display: none;
+	margin-left: 36px;
+}
+.Search2
+{
+	border-bottom: rgb(153,153,153) 1px solid;
+}
+.Apear input
+{
+	height: 30px;
+	border: none;
+	outline: none;
+}
+.Sticky
+{
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+.Sticky .Apear div
+{
+	display: flex;
+}
+.Sticky .Apear .fas
+{
+	font-size: 24px;
+	color: black;
+	margin-left: auto;
+	margin-right: 36px;
+}
+
+.Collection
+{
+	width: 100%;
+}
+.Kind
+{
+	width: 95%;
+	margin: 30px auto;
+}
+.Kind img
+{
+	margin: 0;
+}
+.Flex
+{
+	display: flex;
+}
+.w100
+{
+	width: 100%;
+}
+.w50
+{
+	width: 50%;
+}
+
+.Video
+{
+	width: 95%;
+}
+.Video div div
+{
+	width: 48%;
+	margin: 1%;
+}
+.Video iframe
+{
+	width: 100%;
+	height: 306px;
+}
+.Video img
+{
+	width: 100%;
+}
+
+.Border
+{
+	width: 95%;
+	height: 30px;
+	border-bottom: 1px solid grey;
+	position: relative;
+}
+.Border p
+{
+	position: absolute;
+	left: 40%;
+	top: 25%;
+	background-color: white;
+	padding: 10px;
+	font-size: 25px;
+}
+
+
+#Left
+{
+	left: 0;
+}
+#Right
+{
+	right: 0;
+}
+@keyframes RtoL
+{
+	from {left: 100%;}
+	to {left: 0;}
+}
+.Product p
+{
+	text-align: center;
+	opacity: 100%;
+}
+.Product .Img
+{
+	height: 360px;
+	width: 270px;
+	background-size: cover;
+	position: relative;
+	margin-bottom: 12px;
+}
+.Product .Tab
+{
+	height: 33.3%;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+.Product .Info
+{
+	background-color: white;
+	opacity: 75%;
+	width: 100%;
+}
+.Product .Size
+{
+	display: flex;
+	padding: 18px;
+}
+.Product .Avt
+{
+	width: 18px;
+	height: 18px;
+	border-radius: 18px;
+	border: 1px solid rgb(204,204,204);
+	z-index: 1;
+}
+.Product .Margin
+{
+	height: 20px;
+	padding: 7px;
+}
+.Product .Add
+{
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	padding: 7px 0;
+}
+.Name p
+{
+	font-size: 16px;
+}
+.Product img
+{
+	margin-left: 18%;
+}
+.Product .Rated
+{
+	font-size: 11.2px;
+}
+
+
+footer
+{
+	height: auto;
+	border-top: 1px solid #dcdcdc;
+	background-color: #fafafa;
+	margin-top: 100px;
+}
+.Footer
+{
+	height: auto;
+	display: flex;
+	margin: 28px 20px 50px 20px;
+	width: 96%;
+	font-weight: 300;
+	font-size: 14px;
+}
+.Foot
+{
+	margin: 15px;
+}
+.f2
+{
+	width: 30%;
+}
+.Email
+{
+	display: flex;
+}
+.Email input
+{
+	width: 80%;
+	padding: 10px;
+	border: 1px solid #c8c8c8;
+	border-left: none;
+}
+.Email button
+{
+	width: 20%;
+	height: 37px;
+	color: white;
+	background-color: #999999;
+	font-size: 18px;
+	border: 1px solid #c8c8c8;
+
+}
+.f2 p
+{
+	color: #787878;
+}
+.f1
+{
+	width: 15%;
+}
+.f1 p
+{
+	font-size: 12px;
+	color: #000;
+}
+.Foot div,.Foot p
+{
+	margin: 10px 0;
+}
+.Foot span
+{
+	height: 80px;
+	font-weight: 400;
+}
+.SocialIcon
+{
+	color: #a0a0a0;
+	font-size: 20px;
+}
+.fa-youtube
+{
+	margin-left: 16px;
+}
+.Foot span,.Foot p,.Foot i:hover
+{
+	cursor: pointer;
+}
+.f1 p:hover
+{
+	color: red;
+}
+.SocialIcon:hover
+{
+	color: black;
+}
+
+.all{
+    width: 100%;
+    height: auto;
+}
+.logo{
+    width: 100%;
+    text-align: center;
+}
+.image1{
+width: 100%;
+    height: auto;
+
+}
+.image2{
+    width: 80%;
+    height: auto;
+    margin: 0 auto ;
+
+}
+.styleImage{
+float: left;
+   margin-top: 80px;
+
+}
+.embed-responsive-item{
+    width: 100%;
+    margin-top: 80px;
+    height: 700px;
+}
+footer
+{ width: 100%;
+    float: left;
+	border-top: 1px solid #dcdcdc;
+	background-color: #fafafa;
+	margin-top: 30px;
+
+}
+.Footer
+{  float: left;
+	
+	margin: 28px 20px 50px 20px;
+	width: 96%;
+	font-weight: 300;
+	font-size: 14px;
+}
+
+.hi{
+   box-sizing: border-box;
+    width: 22%;
+    background:  rgb(119, 165, 12);
+    position: fixed;
+    bottom: 0px;
+    right: 0;
+	border-radius: 5px 5px 0 0;
+	z-index: 100;
+
+}
+.message{
+    float: left;
+    padding: 5px 5px 5px 5px;
+    color: white;
+    line-height: 1.5;
+    font-size: 15px;
+}
+.bell{
+	box-sizing: border-box;
+	z-index: 200;
+	bottom: 15px;
+	position: fixed;
+	right: 10px;
+	background: rgb(238, 82, 82);
+	padding: 5px;
+	border-radius: 50%;
+
+}
+.fa-bell
+{
+	color: white;s
+}
