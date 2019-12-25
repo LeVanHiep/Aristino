@@ -1,0 +1,591 @@
+*
+{
+	margin: auto;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+/*HEADER*/
+header
+{
+	display: flex;
+	margin: 15px;
+	color: #999;
+}
+header div
+{
+	width: 33.3%;
+}
+.Logo
+{
+	height: 100px;
+	width: 165px;
+	margin-left: 30px;
+}
+.Search
+{
+	height: 30px;
+	width: 354px;
+	border-radius: 30px;
+	border: 1px grey solid;
+	margin: 40px auto;
+	display: flex;
+}
+.Search input
+{
+	text-align: left;
+	width: 80%;
+	outline: none;
+	margin: 8px 15px;
+}
+.Search i
+{
+	width: 5%;
+	line-height: 30px;
+}
+.Line
+{
+	display: flex;
+	width: 100%;
+	margin: 0;
+}
+.Line div
+{
+	width: 30%;
+}
+.Contact
+{
+	width: 100px;
+	text-align: center;
+}
+.Contact i
+{
+	font-size: 30px;
+}
+.Contact p
+{
+	line-height: 2.24;
+	font-size: 14px;
+	color: black;
+}
+.Number
+{
+	color: red!important;
+	line-height: 1.5!important;
+	font-size: 18px!important;
+	font-weight: bold!important;
+}
+
+/*MENU*/
+#Menu
+{
+}
+ul
+{
+	display: flex;
+	list-style-type: none;
+	background-color: white;
+}
+li
+{
+	line-height: 50px;
+	font-weight: bold;
+	font-size: 12px;
+	position: relative;
+	background-color: white;
+}
+li a
+{
+	margin-left: 10px;
+	text-decoration: none;
+	color: black;
+}
+li i
+{
+	width: 14px;
+	margin-left: 10px;
+}
+.Red a,.Red
+{
+	color: red!important;
+}
+li a:hover
+{
+	color: red;
+	cursor: pointer;
+}
+li ul
+{
+	display: none;
+}
+li ul i
+{
+	float: right;
+	line-height: inherit!important;
+}
+li:hover > ul
+{
+	display: block;
+	position: absolute;
+	width: 200px;
+	z-index: 1;
+}
+ul ul ul
+{
+	left: 100%;
+	top: 0;
+	bottom: 0;
+}
+.Apear
+{
+	width: 20%;
+	color: #999;
+	font-size: 12px;
+}
+.Apear div
+{
+	display: none;
+	margin-left: 36px;
+}
+.Search2
+{
+	border-bottom: rgb(153,153,153) 1px solid;
+}
+.Apear input
+{
+	height: 30px;
+	border: none;
+	outline: none;
+}
+.Sticky
+{
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+.Sticky .Apear div
+{
+	display: flex;
+}
+.Sticky .Apear .fas
+{
+	font-size: 24px;
+	color: black;
+	margin-left: auto;
+	margin-right: 36px;
+}
+
+/*EVENT*/
+.Event
+{
+	position: relative;
+	width: 100%;
+	height: 500px;
+}
+.Event img
+{
+	width: 100%;
+	display: none;
+	animation: RtoL 0.5s;
+	position: absolute;
+}
+.Event .Pages
+{
+	position: absolute;
+	width: 100%;
+	bottom: 10px;
+}
+.Event .Page:hover
+{
+	cursor: pointer;
+}
+.Pages .Active
+{
+	border-color: white!important;
+}
+.Pages .Active div
+{
+	width: 75%;
+	height: 75%;
+	border-radius: 100%;
+	background-color: white;
+	margin-top: 15%;
+	margin-left: 12%;
+}
+.Pages .Marg
+{
+	margin-left: 46.7%;
+	display: flex;
+}
+.Page
+{
+	border-radius: 50%;
+	height: 12px;
+	width: 12px;
+	margin: 5px;
+	border: 2px solid rgba(255, 255, 255, 0.6);
+}
+.Collection
+{
+	width: 100%;
+}
+.Kind
+{
+	width: 95%;
+	margin: 30px auto;
+}
+.Kind .Img
+{
+	background-size: cover;
+	position: relative;
+}
+.Kind #Sweater
+{
+	width: 568px;
+	height: 880px;
+	background-image: url(https://theme.hstatic.net/1000199383/1000258989/14/banner_bottom_slider_1.png?v=5304);
+}
+.Kind #Shirt
+{
+	width: 568px;
+	height: 440px;
+	background-image: url(https://theme.hstatic.net/1000199383/1000258989/14/banner_bottom_slider_2.png?v=5304);
+}
+.Kind #Coat
+{
+	width: 100%;
+	height: 875px;
+	background-image: url(https://theme.hstatic.net/1000199383/1000258989/14/banner_bottom_slider_4.png?v=5304);
+}
+.Kind #Suit
+{
+	width: 568px;
+	height: 440px;
+	background-image: url(https://theme.hstatic.net/1000199383/1000258989/14/banner_bottom_slider_3.png?v=5304);
+}
+.Kind .Title
+{
+	background-color: black;
+	opacity: 75%;
+	color: white;
+	font-size: 19.2px;
+	text-align: center;
+	padding: 16px 0;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+.Kind .Tit
+{
+	width: 30%;
+}
+.Kind .Tit div
+{
+	padding: 10px 0;
+}
+.Kind .Detail
+{
+	display: none;
+	border-top: 2px solid white;
+	font-size: 14px;
+	animation: ShowDetail 0.4s
+}
+.Kind .Img:hover
+{
+	cursor: pointer;
+}
+.Kind .Img:hover .Detail
+{
+	display: block;
+}
+@keyframes ShowDetail
+{
+	from
+	{
+		opacity: 0;
+		margin-bottom: -30px;
+	}
+	to
+	{
+		opacity: 1;
+		margin-bottom: 0px;
+	}
+}
+.Kind img
+{
+	margin: 0;
+}
+.Flex
+{
+	display: flex;
+}
+.w100
+{
+	width: 100%;
+}
+.w50
+{
+	width: 50%;
+}
+
+/*VIDEOS*/
+.Video
+{
+	width: 95%;
+}
+.Video div div
+{
+	width: 48%;
+	margin: 1%;
+}
+.Video iframe
+{
+	width: 100%;
+	height: 306px;
+}
+.Video img
+{
+	width: 100%;
+}
+
+.Border
+{
+	width: 95%;
+	height: 30px;
+	border-bottom: 1px solid grey;
+	position: relative;
+}
+.Border p
+{
+	position: absolute;
+	left: 40%;
+	top: 25%;
+	background-color: white;
+	padding: 10px;
+	font-size: 25px;
+}
+
+/*FEATURED PRODUCTS*/
+#Product1 {background-image: url(https://product.hstatic.net/1000199383/product/ao-so-mi-nam-aristino-als17608_5d71f2c4425841b68b5290f94fcf6c22_large.jpg);}
+#Product2 {background-image: url(https://product.hstatic.net/1000199383/product/-so-mi-nam-aristino-als00108-03_485c3dd744b94fa3968ecd4bc639be41_large_043c0b1e46a64d52ac859faeb5dd51f2_large.jpg);}
+#Product3 {background-image: url(https://product.hstatic.net/1000199383/product/ao-so-mi-nam-aristino-als15808-03_e9519cbf2763431d9a891ead567bca9d_large.jpg);}
+#Product4 {background-image: url(https://product.hstatic.net/1000199383/product/ao-so-mi-nam-aristino-als04108-03_9033675a5a254b1ebe0126da545337ee_large.jpg);}
+#Product5 {background-image: url(https://product.hstatic.net/1000199383/product/ao-so-mi-nam-aristino-als13708_d77aa480c7cd45f6801962762156b164_large.jpg);}
+#Product6 {background-image: url(https://product.hstatic.net/1000199383/product/-so-mi-nam-aristino-ass054s8-03_8068ff6a4c1e4d14bf8fbaabf8f9d810_large_997e8d3e3113464788aabbad3cc1cc4f_large.jpg);}
+#Product7 {background-image: url(https://product.hstatic.net/1000199383/product/ao-so-mi-nam-aristino-ass069s8-01_9d33c9a2c1504e749b4667f5a5cd3c1b_large.jpg);}
+#Product8 {background-image: url(https://product.hstatic.net/1000199383/product/ao-so-mi-nam-aristino-ass049s8_c0d8ce92d113414fbddee34d58282110_large.jpg);}
+#Product10 {background-image: url(https://product.hstatic.net/1000199383/product/so-mi-nam-aristino-ass031s8_70e99812794f4394bcac56b36354cd26_large__1__b52e8fa806c44c95b61039850298b9c4_large.jpg);}
+#Product11 {background-image: url(https://product.hstatic.net/1000199383/product/ao-so-mi-nam-aristino-als05308_f0cc8ae4c0bf4351b114040eeb951e63_large.jpg);}
+#Product12 {background-image: url(https://product.hstatic.net/1000199383/product/ao-so-mi-nam-aristino-als14208_067286bbdba44c7a96c16f735c08c944_large.jpg);}
+#Product13 {background-image: url(https://product.hstatic.net/1000199383/product/ao-so-mi-nam-aristino-als14108_6a6cfaa0efa943bfafb74687e1fafed8_large.jpg);}
+#Product14 {background-image: url(https://product.hstatic.net/1000199383/product/ao-so-mi-nam-aristino-als18908_e0ba7fbe66964178a3d64aa9ea7a3f3c_large.jpg);}
+#Product15 {background-image: url(https://product.hstatic.net/1000199383/product/ao-so-mi-nam-aristino-als18808_ac513a0ad91b4842a2dad1b42ffc6c78_large.jpg);}
+#Product16 {background-image: url(https://product.hstatic.net/1000199383/product/ao-so-mi-nam-aristino-als35907-04_07f83ec071a74f23886558a87c1eb39c_large.jpg);}
+#Product16 {background-image: url(https://product.hstatic.net/1000199383/product/ao-so-mi-nam-aristino-ass156s8-01_5f06b05c7af34d2eb07af21836828f16_large.jpg);}
+
+.SlideShow
+{
+	position: relative;
+}
+.SlideShow button
+{
+	position: absolute;
+	font-size: 36px;
+	background: unset;
+	border: none;
+	top: 50%;
+	outline: none;
+	z-index: 1;
+}
+.Slide
+{
+	margin: 30px 2.5%;
+	display: none;
+	position: relative;
+	animation: RtoL 0.5s;
+}
+.Next:hover
+{
+	cursor: pointer;
+}
+#Left
+{
+	left: 2%;
+}
+#Right
+{
+	right: 2%;
+}
+@keyframes RtoL
+{
+	from {left: 100%;}
+	to {left: 0;}
+}
+.Product p
+{
+	text-align: center;
+	opacity: 100%;
+}
+.Product .Img
+{
+	height: 360px;
+	width: 270px;
+	background-size: cover;
+	position: relative;
+	margin-bottom: 12px;
+}
+.Product .Tab
+{
+	display: none;
+}
+.Product:hover .Tab
+{
+	display: block;
+	height: 33.3%;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	cursor: pointer;
+}
+.Product .Info
+{
+	background-color: white;
+	opacity: 75%;
+	width: 100%;
+}
+.Product .Size
+{
+	display: flex;
+	padding: 18px;
+}
+.Product .Avt
+{
+	width: 18px;
+	height: 18px;
+	border-radius: 18px;
+	border: 1px solid rgb(204,204,204);
+	z-index: 1;
+}
+.Product .Margin
+{
+	height: 20px;
+	padding: 7px;
+}
+.Product .Add
+{
+	width: 100%;
+	background-color: #b99d6b;;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	padding: 7px 0;
+}
+.Product .Add:hover
+{
+	background-color: black;
+}
+.Name p
+{
+	font-size: 16px;
+}
+.Product img
+{
+	margin-left: 18%;
+}
+.Product .Rated
+{
+	font-size: 11.2px;
+}
+
+
+footer
+{
+	border-top: 1px solid #dcdcdc;
+	background-color: #fafafa;
+	margin-top: 100px;
+}
+.Footer
+{
+	display: flex;
+	margin: 28px 20px 50px 20px;
+	width: 96%;
+	font-weight: 300;
+	font-size: 14px;
+}
+.Foot
+{
+	margin: 15px;
+}
+.f2
+{
+	width: 30%;
+}
+.Email
+{
+	display: flex;
+}
+.Email input
+{
+	width: 80%;
+	padding: 10px;
+	border: 1px solid #c8c8c8;
+	border-left: none;
+}
+.Email button
+{
+	width: 20%;
+	height: 37px;
+	color: white;
+	background-color: #999999;
+	font-size: 18px;
+	border: 1px solid #c8c8c8;
+
+}
+.f2 p
+{
+	color: #787878;
+}
+.f1
+{
+	width: 15%;
+}
+.f1 p
+{
+	font-size: 12px;
+	color: #000;
+}
+.Foot div,.Foot p
+{
+	margin: 10px 0;
+}
+.Foot span
+{
+	height: 80px;
+	font-weight: 400;
+}
+.SocialIcon
+{
+	color: #a0a0a0;
+	font-size: 20px;
+}
+.fa-youtube
+{
+	margin-left: 16px;
+}
+.Foot span,.Foot p,.Foot i:hover
+{
+	cursor: pointer;
+}
+.f1 p:hover
+{
+	color: red;
+}
+.SocialIcon:hover
+{
+	color: black;
+}
+
+body::-webkit-scrollbar
+{
+	display: none;
+}
