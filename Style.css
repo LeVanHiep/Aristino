@@ -94,9 +94,11 @@ li
 	position: relative;
 	background-color: white;
 }
-li p
+li a
 {
 	margin-left: 10px;
+	text-decoration: none;
+	color: black;
 }
 li i
 {
@@ -107,7 +109,7 @@ li i
 {
 	color: red;
 }
-li p:hover
+li a:hover
 {
 	color: red;
 	cursor: pointer;

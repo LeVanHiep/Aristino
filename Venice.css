@@ -1,0 +1,62 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+.Book
+{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	overflow: scroll;
+	scroll-snap-type: x mandatory;
+	position: relative;
+}
+.Book::-webkit-scrollbar
+{
+	display: none;
+}
+.Book img
+{
+	height: 100vh;
+	scroll-snap-align: end;
+}
+
+a
+{
+	position: absolute;
+	left: 7.5%;
+	top: 4%;
+	width: 7.5%;
+	height: 9%;
+}
+a:hover
+{
+	border: 0.5px solid black;
+	cursor: pointer;
+}
+
+.Scroll
+{
+	position: absolute;
+	left: 65%;
+	top: 48%;
+	font-size: 11px;
+	font-weight: bold;
+	color: #666;
+	display: flex;
+}
+.Scroll .Direct
+{
+	height: 2px;
+	background-color: #999;
+	margin: 6px 0 6px 6px;
+	animation: Point 2s;
+	animation-iteration-count: infinite;
+}
+@keyframes Point
+{
+	from {width: 0;}
+	to {width: 50px;}
+}
