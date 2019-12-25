@@ -1,26 +1,15 @@
-
-document.addEventListener('Stick Menu', function()
+window.onload = function()
 {
-	window.onscroll = function() {Stick()};
-
 	var navbar = document.getElementById("Menu");
 	var top = navbar.offsetTop;
 
-	function Stick()
+	window.onscroll = function()
 	{
-	  if(window.pageYOffset >= top)
-	  	navbar.classList.add("Sticky");
-	  else
-	    navbar.classList.remove("Sticky");
-	}
+		if(window.pageYOffset >= top) navbar.classList.add("Sticky");
+	  	else navbar.classList.remove("Sticky");
+	};
 
 
-});
-
-
-
-window.onload = function()
-{
 	var x = document.getElementsByClassName("Slide");
 	var size = x.length;
 	var I = 0;
@@ -40,6 +29,7 @@ window.onload = function()
 
 	MoveSlide();
 }
+
 $(document).ready(function()
 {
 	$("body").on('click tap','.Page',function(e)
@@ -54,8 +44,9 @@ $(document).ready(function()
 		var a = $(this).data("page");
 		x[a].style.display = "block";
 		y[a].classList.add("Active");
-	})
-})
+	});
+});
+
 $(document).ready(function()
 {
 	$('body').on('click tap','.Next', function(e)
@@ -83,4 +74,3 @@ function NextSlide(a)
 	else I+=a;
 	x[I].style.display = "flex";
 }
-

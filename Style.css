@@ -4,6 +4,8 @@
 	padding: 0;
 	font-family: sans-serif;
 }
+
+/*HEADER*/
 header
 {
 	display: flex;
@@ -74,7 +76,7 @@ header div
 	font-weight: bold!important;
 }
 
-
+/*MENU*/
 #Menu
 {
 }
@@ -124,18 +126,13 @@ li:hover > ul
 	display: block;
 	position: absolute;
 	width: 200px;
+	z-index: 1;
 }
 ul ul ul
 {
 	left: 100%;
 	top: 0;
 	bottom: 0;
-}
-
-
-body
-{
-
 }
 .Apear
 {
@@ -175,6 +172,8 @@ body
 	margin-left: auto;
 	margin-right: 36px;
 }
+
+/*EVENT*/
 .Event
 {
 	position: relative;
@@ -233,6 +232,83 @@ body
 	width: 95%;
 	margin: 30px auto;
 }
+.Kind .Img
+{
+	background-size: cover;
+	position: relative;
+}
+.Kind #Sweater
+{
+	width: 568px;
+	height: 880px;
+	background-image: url(https://theme.hstatic.net/1000199383/1000258989/14/banner_bottom_slider_1.png?v=5304);
+}
+.Kind #Shirt
+{
+	width: 568px;
+	height: 440px;
+	background-image: url(https://theme.hstatic.net/1000199383/1000258989/14/banner_bottom_slider_2.png?v=5304);
+}
+.Kind #Coat
+{
+	width: 100%;
+	height: 875px;
+	background-image: url(https://theme.hstatic.net/1000199383/1000258989/14/banner_bottom_slider_4.png?v=5304);
+}
+.Kind #Suit
+{
+	width: 568px;
+	height: 440px;
+	background-image: url(https://theme.hstatic.net/1000199383/1000258989/14/banner_bottom_slider_3.png?v=5304);
+}
+.Kind .Title
+{
+	background-color: black;
+	opacity: 75%;
+	color: white;
+	font-size: 19.2px;
+	text-align: center;
+	padding: 16px 0;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+.Kind .Tit
+{
+	width: 30%;
+}
+.Kind .Tit div
+{
+	padding: 10px 0;
+}
+.Kind .Detail
+{
+	display: none;
+	border-top: 2px solid white;
+	font-size: 14px;
+	animation: ShowDetail 0.4s
+}
+.Kind .Img:hover
+{
+	cursor: pointer;
+}
+.Kind .Img:hover .Detail
+{
+	display: block;
+}
+@keyframes ShowDetail
+{
+	from
+	{
+		opacity: 0;
+		margin-bottom: -30px;
+	}
+	to
+	{
+		opacity: 1;
+		margin-bottom: 0px;
+	}
+}
 .Kind img
 {
 	margin: 0;
@@ -250,6 +326,7 @@ body
 	width: 50%;
 }
 
+/*VIDEOS*/
 .Video
 {
 	width: 95%;
@@ -286,6 +363,7 @@ body
 	font-size: 25px;
 }
 
+/*FEATURED PRODUCTS*/
 #Product1 {background-image: url(https://product.hstatic.net/1000199383/product/ao-so-mi-nam-aristino-als17608_5d71f2c4425841b68b5290f94fcf6c22_large.jpg);}
 #Product2 {background-image: url(https://product.hstatic.net/1000199383/product/-so-mi-nam-aristino-als00108-03_485c3dd744b94fa3968ecd4bc639be41_large_043c0b1e46a64d52ac859faeb5dd51f2_large.jpg);}
 #Product3 {background-image: url(https://product.hstatic.net/1000199383/product/ao-so-mi-nam-aristino-als15808-03_e9519cbf2763431d9a891ead567bca9d_large.jpg);}
@@ -324,7 +402,7 @@ body
 	position: relative;
 	animation: RtoL 0.5s;
 }
-.Slide .Next:hover
+.Next:hover
 {
 	cursor: pointer;
 }
